@@ -1,9 +1,13 @@
-function hello(n){
-    console.log("Hello ",n)
-    
-    }
-    
-    
+function hello(name){
+
+    console.log("Hello",name);
+
+} 
+
+
+
+
+
 
 hello("Mno");
 
