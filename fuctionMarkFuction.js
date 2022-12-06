@@ -1,13 +1,12 @@
 function hello(name){
 
-    console.log("Hello",name);
+    return m => name + m ;
 
 } 
 
+const h = hello("mno ")
+const w = hello("nath")
 
-
-
-
-
-hello("Mno");
+console.log(h("welcom "));
+console.log(h("hello "));
 
